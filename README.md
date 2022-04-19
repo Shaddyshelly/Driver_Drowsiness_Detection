@@ -4,10 +4,17 @@
 
 ## Functional Requirement
 ### Python:
-![image](https://user-images.githubusercontent.com/100947908/164065150-2aa97169-08a3-48a0-9025-0813a46c1ec1.png)
+Python is the basis of the program that we wrote. It utilizes many of the python libraries.
+
 
 ### Libraries:
-![image](https://user-images.githubusercontent.com/100947908/164065375-2d60f4f2-3753-48d3-a578-a9a47df4ee73.png)
+<li> Numpy :  Pre-requisite for Dlib.
+  <li> Scipy :  Used for calculating Euclidean distance between the eyelids.
+    <li> Dlib : This program is used to find the frontal human face and estimate its pose using 68 face landmarks.
+      <li> Imutils :  Convenient functions written for Opencv.
+        <li> Opencv : Used to get the video stream from the webcam, etc.
+
+
 
 ## Working 
 #### In this Python project, we will be using OpenCV for gathering the images from webcam and feed them into a Deep Learning model(Dlib) which will classify whether the person’s eyes are ‘Open’ or ‘Closed’. The approach, we will be using for this Python project is as follows-
